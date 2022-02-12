@@ -1,0 +1,107 @@
+/* ////// HEADER /////// */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  padding-right: 100px;
+  align-items: center;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 68, 255),
+    rgba(0, 60, 255, 0.534)
+  );
+}
+
+header > input {
+  width: 222px;
+  height: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 38, 255, 0.548),
+    rgba(0, 38, 255, 0.411)
+  );
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 16px;
+}
+
+input::placeholder {
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+}
+
+input:hover {
+  background-color: black;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 68, 255),
+    rgba(0, 60, 255, 0.534)
+  );
+}
+.container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.timer-section {
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 55px;
+  color: aliceblue;
+}
+
+.today {
+  min-width: 250px;
+  max-height: 260px;
+  font-size: 22px;
+  color: #fff;
+}
+.week-day {
+  min-width: 250px;
+  max-height: 260px;
+  background-color: rgba(0, 0, 0, 0.158);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
+.default-celsius {
+  font-size: 95px;
+  padding-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.default-celsius > span {
+  font-size: 35px;
+  padding-top: 15px;
+}
+
+.week-day > p {
+  font-size: 20px;
+}
