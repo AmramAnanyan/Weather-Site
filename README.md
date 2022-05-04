@@ -1,4 +1,4 @@
-#### Weather App
+## Weather App
 
 ###### API in open weather app
 
@@ -6,4 +6,4 @@
 
 ---
 
-<img src="./background/1.png" width="800px" height="500px"/>
+<img src="./background/1.png" width="900px" height="500px"/>
